@@ -1,0 +1,22 @@
+name: Improvement suggestion
+description: Suggest a useful improvement to this GitHub profile or its documentation.
+title: "[Improvement]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "Suggestions should relate to this profile repository. For CodeYantra product features, use the relevant product repository."
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would you improve?
+      description: Describe your suggestion.
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Why would it help?
+      description: Explain how this improves clarity, accessibility, or usability.
+    validations:
+      required: true
