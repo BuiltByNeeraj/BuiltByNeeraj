@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a broken link, formatting problem, or other issue with this GitHub profile.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for helping improve this profile. Please do not include sensitive information."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Describe the issue clearly.
+      placeholder: "The link to ... does not work."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include steps or a URL if applicable.
+    validations:
+      required: false
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
