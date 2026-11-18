@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: CodeYantra Technologies
+    url: https://codeyantra.in
+    about: For product information or general business enquiries, visit the official website.
+  - name: Private security reports
+    url: https://codeyantra.in
+    about: Do not disclose vulnerabilities or private information in public issues. Use the private contact details on the website.
